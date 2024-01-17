@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salary</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form">
+        <h3>Profile Form</h3>
+
+        <label for="name">Full name:</label>
+        <input type="text" id="name" required/>
+        <br />
+        <label for="hours">Hours of work:</label>
+        <input type="text" id="hours" required/>
+        <br />
+        <label for="tax">Tax:</label>
+        <input type="text" id="tax" required/>
+        <br />
+        <label for="degree">Degree:</label>
+
+        <select id="degree">
+          <option>Associate</option>
+          <option>Bachelor</option>
+          <option>Master</option>
+          <option>Doctorate</option>
+          <option>Professional</option>
+        </select>
+
+        <br /><br /><br />
+        <div>
+          <button id="btnSend">Send</button>
+          <button id="btnReset">Reset</button>
+        </div>
+      </div>
+
+      <div class="output">
+        <h3>Result Page</h3>
+        <p>Name: <span></span></p>
+        <p>Degree: <span></span></p>
+        <p>Your Salary: <span></span></p>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
